@@ -42,6 +42,14 @@ npm run docs:preview  # 预览构建产物
    - 填写投稿邮箱（`docs/contribute/how-to-contribute.md`）；
    - 替换占位的校徽/校标素材为最新官方版本（当前已接入，见 `assets-src/README.md`）。
 
+## 评论与统计
+
+- **访问统计**：已接入[不蒜子](https://busuanzi.ibruce.info/)，每页底部显示站点总访问量与访客数，无需任何配置。
+- **评论（giscus）**：基于 GitHub Discussions，配置完成后评论框自动出现在每个文档页底部。启用三步：
+  1. 仓库 **Settings → General → Features** 勾选 **Discussions**；
+  2. 安装 [giscus App](https://github.com/apps/giscus) 并仅授权本仓库；
+  3. 打开 [giscus.app/zh-CN](https://giscus.app/zh-CN)，填入仓库名，映射选 `pathname`，分类选 `Announcements`，把页面生成的 `repoId`（`data-repo-id`）和 `categoryId`（`data-category-id`）粘贴到 `docs/.vitepress/giscus.js`，推送即可。
+
 ## 路线图
 
 - [x] 站点骨架与部署流水线
