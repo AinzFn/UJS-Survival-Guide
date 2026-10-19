@@ -3,7 +3,7 @@
 // 未配置 repoId/categoryId 时整体不渲染。
 import { useData, useRoute } from 'vitepress'
 import { nextTick, onMounted, watch } from 'vue'
-import { categoryId, category, repoId } from '../giscus'
+import { categoryId, category, repoId } from '../../giscus'
 
 const route = useRoute()
 const enabled = Boolean(repoId && categoryId)
