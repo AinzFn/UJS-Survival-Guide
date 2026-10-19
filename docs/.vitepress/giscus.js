@@ -3,10 +3,10 @@
 // 两个值任一为空时，站点不会渲染评论框（其余功能不受影响）。
 
 // 例如：R_kgDOxxxxxx
-export const repoId = ''
+export const repoId = 'R_kgDOVPDk2g'
 
 // 例如：DIC_kwDOxxxxxx
-export const categoryId = ''
+export const categoryId = 'DIC_kwDOVPDk2s4DI_Tg'
 
 // giscus.app 页面上选择的 Discussions 分类名（建议用 Announcements，仅维护者可发起讨论）
 export const category = 'Announcements'
