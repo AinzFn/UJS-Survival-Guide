@@ -2,15 +2,19 @@ import { defineConfig } from 'vitepress'
 
 const repo = 'AinzFn/UJS-Survival-Guide'
 
+// GitHub Pages 项目页部署在子路径下，必须与仓库名一致，否则资源全部 404
+const base = '/UJS-Survival-Guide/'
+
 export default defineConfig({
   lang: 'zh-CN',
+  base,
   title: '江苏大学生存手册',
   description:
     '由江大人写给江大人的非官方生存指南：选课、转专业、保研、考研、出国、就业、校园生活与各专业在读学生的真实分享。',
 
   appearance: false, // 只保留浅色模式，不提供深色切换
 
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/img/emblem-256.png' }]],
+  head: [['link', { rel: 'icon', type: 'image/png', href: `${base}img/emblem-256.png` }]],
 
   lastUpdated: true, // 每页底部显示“最后更新”，需要 git 历史
 
