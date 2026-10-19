@@ -32,13 +32,8 @@ features:
     linkText: 进入章节
   - icon: 🍜
     title: 生活
-    details: 食堂评测、宿舍园区、镇江生活指南——大学四年不只有学习。
+    details: 美食评测、宿舍园区、镇江生活指南——大学四年不只有学习。
     link: /life/
-    linkText: 进入章节
-  - icon: 🎓
-    title: 专业介绍
-    details: 来自各学院在读学生的第一人称介绍：学什么、优缺点、给新生的建议。
-    link: /majors/
     linkText: 进入章节
   - icon: ✍️
     title: 参与贡献

@@ -6,6 +6,8 @@
   "description": "江苏大学生存手册 —— 由江大人写给江大人的非官方生存指南",
   "license": "SEE LICENSE IN LICENSE AND LICENSE-CONTENT.md",
   "scripts": {
+    "predocs:dev": "node scripts/fetch_contributors.mjs",
+    "predocs:build": "node scripts/fetch_contributors.mjs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

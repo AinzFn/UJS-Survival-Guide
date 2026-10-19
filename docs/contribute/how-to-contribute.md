@@ -13,7 +13,7 @@
 不需要安装任何软件，只需要一个 GitHub 账号（[注册入口](https://github.com/signup)，免费，两分钟）。
 
 1. 打开仓库页面 `https://github.com/AinzFn/UJS-Survival-Guide`；
-2. 进入 `docs` 目录，找到你的文章该放的位置（比如 `docs/path/experiences/` 或 `docs/majors/cs/`），点右上角 **Add file → Create new file**；
+2. 进入 `docs` 目录，找到你的文章该放的位置（比如 `docs/path/experiences/` 或 `docs/study/`），点右上角 **Add file → Create new file**；
 3. 文件名按规范填写，例如 `[abroad]-2021-xiaoming.md`（全小写、用连字符、不能有空格）；
 4. 把内容粘贴进去，点上方 **Preview** 标签可以预览排版；
 5. 点 **Commit changes...**，选择 **Propose changes**，然后点 **Create pull request**；
@@ -46,8 +46,8 @@
 
 ## 新文章如何出现在导航里
 
-- `docs/path/experiences/` 下的经验帖：收录进该目录的 README 列表；
-- `docs/majors/` 下的专业介绍：放进对应学院文件夹即可；
+- `docs/path/experiences/` 下的经验帖：收录进该目录的收录页列表；
+- 其他章节内容：放进对应文件夹即可；
 - 新建了页面或想调整目录：在 PR 里说明即可，维护者会更新站点导航（`docs/.vitepress/config.mts`）。
 
 ## 审核规则（我们承诺）
