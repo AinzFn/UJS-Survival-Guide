@@ -21,24 +21,31 @@
   max-width: 820px;
 }
 
+/* 覆盖 VitePress 默认的 hero 图片系统：
+   容器定高、图片 max-width 上限、绝对定位——全部解除，让校标以完整宽度居中显示 */
 .VPHomeHero .image {
-  order: -1; /* 校标置于标题上方 */
-  width: min(880px, 94vw);
-  margin: 0 0 24px;
+  order: -1;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 0 12px;
+  padding: 0;
+  min-height: 0;
 }
 
 .VPHomeHero .image-container {
   width: 100%;
+  height: auto;
 }
 
-/* 校标直接落在页面底色上，不加任何卡片 */
 .VPHomeHero .image-src {
   position: static;
   width: 100%;
+  max-width: none;
+  max-height: none;
   transform: none;
 }
 
-/* 标题：宋体 + 墨色（替换模板默认渐变蓝） */
+/* 标题：宋体 + 墨色（替换模板默认渐变蓝），紧贴校标下方 */
 .VPHomeHero .name {
   font-family: 'SimSun', '宋体', 'Songti SC', 'STSong', serif;
   font-size: clamp(2rem, 5vw, 3.4rem);
