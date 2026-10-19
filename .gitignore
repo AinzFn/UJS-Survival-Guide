@@ -1,0 +1,13 @@
+# 依赖
+node_modules/
+
+# VitePress 构建产物与缓存
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

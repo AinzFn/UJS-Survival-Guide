@@ -1,0 +1,60 @@
+/* ============ 全站主题色：校标绿（替换模板默认蓝） ============ */
+:root {
+  --vp-c-brand-1: #2f7d45;
+  --vp-c-brand-2: #358a4e;
+  --vp-c-brand-3: #2a7040;
+}
+
+/* ============ 首页封面：校标居中置顶，为最显眼元素 ============ */
+.VPHomeHero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.VPHomeHero .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 820px;
+}
+
+.VPHomeHero .image {
+  order: -1; /* 校标置于标题上方 */
+  width: min(880px, 94vw);
+  margin: 0 0 24px;
+}
+
+.VPHomeHero .image-container {
+  width: 100%;
+}
+
+/* 校标直接落在页面底色上，不加任何卡片 */
+.VPHomeHero .image-src {
+  position: static;
+  width: 100%;
+  transform: none;
+}
+
+/* 标题：宋体 + 墨色（替换模板默认渐变蓝） */
+.VPHomeHero .name {
+  font-family: 'SimSun', '宋体', 'Songti SC', 'STSong', serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  letter-spacing: 0.08em;
+  background: none;
+  -webkit-text-fill-color: #1c2422;
+}
+
+/* ============ 导航栏圆形校徽 ============ */
+.VPNavBarTitle img.logo {
+  height: 28px;
+}
+
+/* ============ 通用 ============ */
+/* 站内大图（如校园地图）在小屏可缩放，不撑破版面 */
+.vp-doc img {
+  max-width: 100%;
+  height: auto;
+}

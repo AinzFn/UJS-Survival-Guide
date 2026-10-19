@@ -1,0 +1,17 @@
+{
+  "name": "ujs-manual",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "江苏大学生存手册 —— 由江大人写给江大人的非官方生存指南",
+  "license": "SEE LICENSE IN LICENSE AND LICENSE-CONTENT.md",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
