@@ -15,7 +15,18 @@ function load() {
   document.body.appendChild(el)
 }
 
-onMounted(load)
+function isFilled() {
+  const c = document.getElementById('busuanzi_container_site_pv')
+  return Boolean(c && c.style.display !== 'none')
+}
+
+onMounted(() => {
+  load()
+  // 不蒜子的 JSONP 首次请求偶发失败：2.5 秒后仍未回填则重试一次
+  setTimeout(() => {
+    if (!isFilled()) load()
+  }, 2500)
+})
 watch(() => route.path, load)
 </script>
 
