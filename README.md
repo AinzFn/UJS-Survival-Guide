@@ -40,7 +40,7 @@
 
 1. **不以出路论高下**——保研清北与就业都值得写入手册。
 2. **述而有据**——批评出于亲历，政策注明出处与核实时间。
-3. **凡有所赠，皆留其名**——(https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors) 名单会记录每一位投稿人。
+3. **凡有所赠，皆留其名**——每位投稿人均收录于[贡献者名录](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors)。
 
 ## 🤝 参与贡献
 
