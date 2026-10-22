@@ -35,6 +35,11 @@ features:
     details: 美食评测、宿舍园区、镇江生活指南——大学四年不只有学习。
     link: /life/
     linkText: 进入章节
+  - icon: 🔬
+    title: 研究生生存
+    details: 选导师与进组、培养方案与毕业要求、科研生存、考博与就业——写给在江大读研的你。
+    link: /grad/
+    linkText: 进入章节
   - icon: ✍️
     title: 参与贡献
     details: 往仓库投稿箱丢一个文件就算投稿，网页上点几下即可。

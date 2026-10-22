@@ -10,7 +10,7 @@ export default defineConfig({
   base,
   title: '江苏大学生存手册',
   description:
-    '由江大人写给江大人的非官方生存指南：选课、转专业、保研、考研、出国、就业、校园生活与各专业在读学生的真实分享。',
+    '由江大人写给江大人的非官方生存指南：选课、转专业、保研、考研、出国、就业、研究生选导师与科研生存、校园生活与各专业在读学生的真实分享。',
 
   appearance: false, // 只保留浅色模式，不提供深色切换
 
@@ -26,6 +26,7 @@ export default defineConfig({
       { text: '学业生存', link: '/study/', activeMatch: '/study/' },
       { text: '出路', link: '/path/', activeMatch: '/path/' },
       { text: '生活', link: '/life/', activeMatch: '/life/' },
+      { text: '研究生生存', link: '/grad/', activeMatch: '/grad/' },
       { text: '我要投稿', link: '/contribute/how-to-contribute' },
     ],
 
@@ -82,6 +83,18 @@ export default defineConfig({
           { text: '宿舍与园区', link: '/life/dorm' },
           { text: '镇江生活指南', link: '/life/zhenjiang' },
           { text: '兼职与勤工俭学', link: '/life/parttime' },
+        ],
+      },
+      {
+        text: '第五章 · 研究生生存',
+        items: [
+          { text: '本章导读', link: '/grad/' },
+          { text: '选导师与进组', link: '/grad/advisor' },
+          { text: '培养方案与毕业要求', link: '/grad/requirements' },
+          { text: '科研生存', link: '/grad/research' },
+          { text: '奖助学金与评奖', link: '/grad/funding' },
+          { text: '考博与申请考核', link: '/grad/phd' },
+          { text: '就业与实习', link: '/grad/career' },
         ],
       },
       {
