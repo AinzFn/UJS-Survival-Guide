@@ -25,7 +25,6 @@
 
 选课怎么选、绩点怎么算、要不要转专业、保研考研出国就业怎么选、奖学金怎么评、食堂哪家好吃、镇江怎么玩——你在大学四年里会遇到的每一个岔路口，这里都有学长学姐留下的一手记录。
 
-> 一篇分享只要半小时，却能帮到之后**每一届**的同学。
 
 ## 手册里有什么
 
@@ -41,7 +40,7 @@
 
 1. **不限出路、不限水平**——保研清北的经验值得看，普通就业、二战上岸的经验同样值得看；
 2. **真实、有据**——批评性内容基于事实与亲历，政策类信息标注核实时间；
-3. **每个投稿者都会被记住**——[感谢贡献者](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors)名单自动收录每一位投稿人。
+3. **每个投稿者都会被记住**——[感谢贡献者](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors)名单会记录每一位投稿人。
 
 ## 🤝 参与贡献
 
@@ -51,7 +50,7 @@
 - **邮箱投稿**：完全零门槛，支持匿名，地址见 [投稿页](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)；
 - **Git 工作流**：Fork → 修改 → PR，规范见 [CONTRIBUTING](CONTRIBUTING.md)。
 
-不知道写什么？[写作模板](https://ainzfn.github.io/UJS-Survival-Guide/contribute/writing-template)里有现成框架，套着填就行。每一页都可以写——学业、生活、出路，踩过的坑都是学弟学妹的路标。
+不知道写什么？[写作模板](https://ainzfn.github.io/UJS-Survival-Guide/contribute/writing-template)里有现成框架，套着填就行。
 
 ## 🙏 致谢
 
