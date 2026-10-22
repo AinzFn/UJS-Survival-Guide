@@ -7,7 +7,7 @@
 | [选课技巧](/study/course-selection) | 怎么排课、怎么避坑 | 🚧 |
 | [GPA 制度解读](/study/gpa) | 绩点算法、重修规则 | 🚧 |
 | [转专业指南](/study/major-transfer) | 政策 + 转入者经验 | 🚧 |
-| [保研准备](/study/baoyan-prep) | 大一到大三如何积累保研条件 | 🚧 |
+| [保研要求](/study/baoyan-requirement) | 2021 版评定方法（2026 年仍沿用）：申请条件与评分细则 | ✅ |
 | [评奖评优](/study/awards) | 奖学金体系、综测构成、申请经验 | 🚧 |
 | [入党](/study/party) | 流程五阶段、时间线、材料 | 🚧 |
 | [竞赛路线图](/study/competition) | 值得参加的竞赛与备赛建议 | 🚧 |

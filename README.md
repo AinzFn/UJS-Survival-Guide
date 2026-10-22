@@ -31,7 +31,7 @@
 | 章节 | 内容 |
 |---|---|
 | [认识江大](https://ainzfn.github.io/UJS-Survival-Guide/campus/) | 校园地图、常用系统、办事指南——新生第一周需要的都在这 |
-| [学业生存](https://ainzfn.github.io/UJS-Survival-Guide/study/) | 选课、GPA、转专业、保研准备、评奖评优、竞赛、科研 |
+| [学业生存](https://ainzfn.github.io/UJS-Survival-Guide/study/) | 选课、GPA、转专业、保研要求、评奖评优、竞赛、科研 |
 | [出路](https://ainzfn.github.io/UJS-Survival-Guide/path/) | 保研 / 考研 / 出国 / 就业 / 考公等每条路的综述与真实经验帖 |
 | [生活](https://ainzfn.github.io/UJS-Survival-Guide/life/) | 美食评测、宿舍园区、镇江生活、兼职避坑 |
 | [附录](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors) | 感谢贡献者、社团介绍、常见问题 |
