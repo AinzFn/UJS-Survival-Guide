@@ -7,6 +7,9 @@
 | [选课技巧](/study/course-selection) | 怎么排课、怎么避坑 | 🚧 |
 | [GPA 制度解读](/study/gpa) | 绩点算法、重修规则 | 🚧 |
 | [转专业指南](/study/major-transfer) | 政策 + 转入者经验 | 🚧 |
+| [保研准备](/study/baoyan-prep) | 大一到大三如何积累保研条件 | 🚧 |
+| [评奖评优](/study/awards) | 奖学金体系、综测构成、申请经验 | 🚧 |
+| [入党](/study/party) | 流程五阶段、时间线、材料 | 🚧 |
 | [竞赛路线图](/study/competition) | 值得参加的竞赛与备赛建议 | 🚧 |
 | [科研入门](/study/research) | 大创、进实验室、选导师 | 🚧 |
 
