@@ -13,4 +13,4 @@
 
 ## 征稿
 
-每条都极度缺稿。只要与"毕业去哪儿、大学怎么走"相关，都可以按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[other]` 开头。
+每条都极度缺稿。只要与"毕业去哪儿、大学怎么走"相关，都可以投至[经验分享合集](/path/experiences/)。

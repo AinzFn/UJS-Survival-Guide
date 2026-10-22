@@ -13,7 +13,7 @@
 
 ## 经验帖
 
-按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[kaoyan]` 开头。
+投至[经验分享合集](/path/experiences/)。
 
 特别欢迎：
 - **二战/三战上岸**的完整复盘；

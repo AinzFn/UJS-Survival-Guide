@@ -14,6 +14,6 @@
 
 ## 经验帖
 
-按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[civil]` 开头。
+投至[经验分享合集](/path/experiences/)。
 
 特别欢迎：选调上岸的学长学姐写**基层工作的真实情况**——这比任何攻略都稀缺。

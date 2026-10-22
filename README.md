@@ -44,13 +44,13 @@
 
 ## 🤝 参与贡献
 
-**投稿方式**：
+**往仓库的[投稿箱](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)里丢一个文件，就算投稿**：
 
-- **网页投稿**：GitHub 网页上点几下，见 [图文教程](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)；
-- **邮箱投稿**：完全零门槛，支持匿名，地址见 [投稿页](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)；
-- **Git 工作流**：Fork → 修改 → PR，规范见 [CONTRIBUTING](CONTRIBUTING.md)。
+1. 打开 [inbox 投稿箱文件夹](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)，点 **Add file → Create new file**；
+2. 文件名随意（建议「主题-昵称」），内容格式随意；
+3. 提交即完成——维护者会定期整理上架，[贡献者名录](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors)会自动留下你的名字。
 
-不知道写什么？[写作模板](https://ainzfn.github.io/UJS-Survival-Guide/contribute/writing-template)里有现成框架。
+详细图文步骤见[投稿教程](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)。
 
 ## 🙏 致谢
 

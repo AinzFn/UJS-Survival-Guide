@@ -12,7 +12,7 @@
 
 ## 经验帖
 
-请按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[baoyan]` 开头。
+请投至[经验分享合集](/path/experiences/)。
 
 需要的视角：
 - 各学院、各排名段（尤其"边缘排名逆袭/惜败"的案例）；

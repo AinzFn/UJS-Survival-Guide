@@ -95,10 +95,7 @@ export default defineConfig({
       },
       {
         text: '参与贡献',
-        items: [
-          { text: '如何投稿', link: '/contribute/how-to-contribute' },
-          { text: '写作模板', link: '/contribute/writing-template' },
-        ],
+        items: [{ text: '如何投稿', link: '/contribute/how-to-contribute' }],
       },
     ],
 

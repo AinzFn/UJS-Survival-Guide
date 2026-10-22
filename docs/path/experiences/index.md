@@ -1,6 +1,6 @@
 # 经验分享合集
 
-这里收录历届同学的升学、求职经验帖，按去向与年份排列。**投稿方式见[如何投稿](/contribute/how-to-contribute)，写作模板见[写作模板](/contribute/writing-template)。**
+这里收录历届同学的升学、求职经验帖，按去向与年份排列。**投稿方式见[如何投稿](/contribute/how-to-contribute)：稿件投进仓库投稿箱，由维护者整理收录于本页。**
 
 ## 命名规则
 

@@ -2,7 +2,7 @@
 
 本手册的每一页，都来自同学们愿意为后来者留下一点东西的善意。以下名单由仓库提交记录**自动生成、随每次构建更新**——你在 GitHub 上合并的每一次投稿，都会自动出现在这里。
 
-邮箱投稿的同学也不必担心漏掉：维护者代为上架时会以 `Co-authored-by` 联合署名，同样自动进入名单。
+把稿件投进仓库[投稿箱](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)、由维护者代为上架的同学也不必担心漏掉：上架时会以 `Co-authored-by` 联合署名，同样自动进入名单。
 
 <script setup>
 import contributors from '../.vitepress/contributors.json'

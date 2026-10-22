@@ -15,6 +15,6 @@
 
 ## 经验帖
 
-按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[abroad]` 开头，格式参考：`[abroad]-2021-昵称.md`。
+投至[经验分享合集](/path/experiences/)。
 
 每篇应包含：基本背景（可模糊化）→ 申请结果（录取/拒信列表）→ 申请心得。**offer 与拒信都值得晒**——完整的申请结果列表比单一 offer 更有参考价值。

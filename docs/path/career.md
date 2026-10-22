@@ -13,7 +13,7 @@
 
 ## 经验帖
 
-按[经验分享模板](/contribute/writing-template)投稿至[经验分享合集](/path/experiences/)，文件名以 `[career]` 开头。
+投至[经验分享合集](/path/experiences/)。
 
 特别欢迎**已经在工作**的学长学姐写：
 - 某个行业/岗位真实的工作日常与成长路径；

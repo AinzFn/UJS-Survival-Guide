@@ -37,7 +37,7 @@ features:
     linkText: 进入章节
   - icon: ✍️
     title: 参与贡献
-    details: 会打字就能投稿。网页上点几下即可，也支持匿名整理上架。
+    details: 往仓库投稿箱丢一个文件就算投稿，网页上点几下即可。
     link: /contribute/how-to-contribute
     linkText: 查看投稿方式
 ---
