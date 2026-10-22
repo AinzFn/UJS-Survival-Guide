@@ -7,8 +7,9 @@
 1. 打开仓库的**投稿箱**文件夹：[github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)；
 2. 点右上角 **Add file → Create new file**；
 3. 文件名建议「主题-昵称」，例如 `考研-小明.md`（想匿名就不写昵称，并在开头注明「匿名发布」）；
-4. 把内容粘贴进去，点上方 **Preview** 标签可预览排版；
-5. 拉到页面底部点 **Commit changes**——完成。
+4. 在稿件**开头两行**标明：① 署名——想用的昵称，或「匿名」；② 投到哪里——希望归入的章节，例如「第三章 · 保研」。只做归类用，不会原样出现在文章里；
+5. 把内容粘贴进去，点上方 **Preview** 标签可预览排版；
+6. 拉到页面底部点 **Commit changes**——完成。
 
 【截图位：① inbox 文件夹与 Add file 按钮 ② 文件名与编辑区 ③ Commit changes 按钮——下批内容发布前补上】
 
