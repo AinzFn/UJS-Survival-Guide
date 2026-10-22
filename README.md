@@ -1,71 +1,68 @@
+<div align="center">
+
+<img src="docs/public/img/emblem-256.png" width="96" alt="江苏大学校徽" />
+
 # 江苏大学生存手册
 
-> 由江大人写给江大人的非官方生存指南。
+**由江大人写给江大人的非官方生存指南**
 
-收录选课、转专业、保研、考研、出国、就业、考公等各条出路的经验，以及校园生活与各专业在读学生的真实介绍。项目灵感与体例深受 [《上海交通大学生存手册》](https://github.com/SurviveSJTU/SurviveSJTUManual)（2008，5931★）及其衍生的各校同类项目启发，在此致谢。
+[![在线阅读](https://img.shields.io/badge/%F0%9F%93%96_在线阅读-点此打开-2f7d45)](https://ainzfn.github.io/UJS-Survival-Guide/)
+[![Deploy](https://github.com/AinzFn/UJS-Survival-Guide/actions/workflows/deploy.yml/badge.svg)](https://github.com/AinzFn/UJS-Survival-Guide/actions/workflows/deploy.yml)
+[![License](https://img.shields.io/badge/内容协议-CC_BY--NC--SA_4.0-2f7d45)](LICENSE-CONTENT.md)
+[![PRs Welcome](https://img.shields.io/badge/投稿-欢迎任何人-2f7d45)](#-参与贡献)
 
-**当前状态：🚧 骨架阶段，内容招募中。** 章节结构与站点已就绪，等待第一批作者与稿件——见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+</div>
 
-## 章节结构
+---
 
-```
-序            关于本手册、声明与免责
-第一章 认识江大   欢迎辞、校园与学院分布、常用系统、办事指南
-第二章 学业生存   选课、GPA、转专业、竞赛、科研入门（人人可写）
-第三章 出路      保研 / 考研 / 出国 / 就业 / 选调考公 / 其他 + 经验分享合集
-第四章 生活      美食、宿舍、镇江生活、兼职（人人可写）
-附录           感谢贡献者、社团、FAQ、友情链接
-参与贡献        投稿指南、写作模板
-```
+## 📖 在线阅读
 
-## 技术栈
+**👉 [https://ainzfn.github.io/UJS-Survival-Guide/](https://ainzfn.github.io/UJS-Survival-Guide/)**
 
-[VitePress](https://vitepress.dev)（Vue 生态静态文档站）+ GitHub Actions 自动部署到 GitHub Pages。贡献者只需写 Markdown，不需要碰任何前端。
+## 这是什么
 
-## 本地开发
+这是由在校学生与毕业生自发编写、持续更新的经验合集。它不替你做决定，只负责把前人走过的路、踩过的坑，如实标出来。
 
-需要 Node.js 18+。
+选课怎么选、绩点怎么算、要不要转专业、保研考研出国就业怎么选、奖学金怎么评、食堂哪家好吃、镇江怎么玩——你在大学四年里会遇到的每一个岔路口，这里都有学长学姐留下的一手记录。
 
-```bash
-npm install
-npm run docs:dev      # 本地预览 http://localhost:5173
-npm run docs:build    # 构建到 docs/.vitepress/dist
-npm run docs:preview  # 预览构建产物
-```
+> 一篇分享只要半小时，却能帮到之后**每一届**的同学。
 
-## 上线部署（一次性设置）
+## 手册里有什么
 
-1. 推送本目录到远程仓库 `git@github.com:AinzFn/UJS-Survival-Guide.git`；
-2. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**；
-3. 替换以下占位内容：
-   - ~~全局搜索 `YOUR-ORG`，替换为实际组织/用户名与仓库名~~（已完成：仓库为 `AinzFn/UJS-Survival-Guide`）；
-   - 填写投稿邮箱（`docs/contribute/how-to-contribute.md`）；
-   - 替换占位的校徽/校标素材为最新官方版本（当前已接入，见 `assets-src/README.md`）。
+| 章节 | 内容 |
+|---|---|
+| [认识江大](https://ainzfn.github.io/UJS-Survival-Guide/campus/) | 校园地图、常用系统、办事指南——新生第一周需要的都在这 |
+| [学业生存](https://ainzfn.github.io/UJS-Survival-Guide/study/) | 选课、GPA、转专业、保研准备、评奖评优、竞赛、科研 |
+| [出路](https://ainzfn.github.io/UJS-Survival-Guide/path/) | 保研 / 考研 / 出国 / 就业 / 考公等每条路的综述与真实经验帖 |
+| [生活](https://ainzfn.github.io/UJS-Survival-Guide/life/) | 美食评测、宿舍园区、镇江生活、兼职避坑 |
+| [附录](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors) | 感谢贡献者、社团介绍、常见问题 |
 
-## 评论与统计
+## 这本手册的三个承诺
 
-- **访问统计**：已接入[不蒜子](https://busuanzi.ibruce.info/)，每页底部显示站点总访问量与访客数，无需任何配置。
-- **评论（giscus）**：基于 GitHub Discussions，配置完成后评论框自动出现在每个文档页底部。启用三步：
-  1. 仓库 **Settings → General → Features** 勾选 **Discussions**；
-  2. 安装 [giscus App](https://github.com/apps/giscus) 并仅授权本仓库；
-  3. 打开 [giscus.app/zh-CN](https://giscus.app/zh-CN)，填入仓库名，映射选 `pathname`，分类选 `Announcements`，把页面生成的 `repoId`（`data-repo-id`）和 `categoryId`（`data-category-id`）粘贴到 `docs/.vitepress/giscus.js`，推送即可。
+1. **不限出路、不限水平**——保研清北的经验值得看，普通就业、二战上岸的经验同样值得看；
+2. **真实、有据**——批评性内容基于事实与亲历，政策类信息标注核实时间；
+3. **每个投稿者都会被记住**——[感谢贡献者](https://ainzfn.github.io/UJS-Survival-Guide/appendix/contributors)名单自动收录每一位投稿人。
 
-## 路线图
+## 🤝 参与贡献
 
-- [x] 站点骨架与部署流水线
-- [x] 全部章节大纲与写作模板
-- [ ] 组建编委会（站长 + 各章负责人 + 学院约稿人）
-- [ ] 冷启动首批 15~20 篇内容（编辑部骨干文 + 专业介绍）
-- [ ] 发布 v1 并校内宣传，开放投稿
-- [ ] 每年 6 月：毕业季内容大修 + 编委会换届
+**会打字就能投稿**，三种方式任选：
 
-## 参与贡献
+- **网页投稿**：GitHub 网页上点几下，见 [图文教程](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)；
+- **邮箱投稿**：完全零门槛，支持匿名，地址见 [投稿页](https://ainzfn.github.io/UJS-Survival-Guide/contribute/how-to-contribute)；
+- **Git 工作流**：Fork → 修改 → PR，规范见 [CONTRIBUTING](CONTRIBUTING.md)。
 
-见 [CONTRIBUTING.md](CONTRIBUTING.md)。三种方式任选：GitHub 网页投稿（会打字就行）、邮箱投稿（可匿名）、Git 工作流。
+不知道写什么？[写作模板](https://ainzfn.github.io/UJS-Survival-Guide/contribute/writing-template)里有现成框架，套着填就行。每一页都可以写——学业、生活、出路，踩过的坑都是学弟学妹的路标。
 
-## 许可协议
+## 🙏 致谢
 
-- **正文内容**（`docs/` 下文章与图片）：[CC BY-NC-SA 4.0](LICENSE-CONTENT.md)
-- **站点代码与配置**：[MIT](LICENSE)
+本手册的体例与精神深受 [《上海交通大学生存手册》](https://github.com/SurviveSJTU/SurviveSJTUManual)（2008）及南方科技大学、南京理工大学、合肥工业大学等各校同类项目启发，向这些学校的同学们致谢。
 
-> 本项目为在校学生自发组织的非官方项目，与江苏大学官方无关。
+## ⚠️ 声明
+
+本手册为在校学生自发组织的**非官方**项目，与江苏大学官方无关；政策类信息具有时效性，一切以学校最新正式文件为准。正文内容采用 [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) 协议，站点代码采用 [MIT](LICENSE) 协议。
+
+<div align="center">
+
+**愿每个江大人的路，都比上一届更好走。**
+
+</div>

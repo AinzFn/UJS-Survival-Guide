@@ -43,3 +43,34 @@ npm run docs:dev   # http://localhost:5173
 2. 一个 PR 聚焦一件事（一篇文章 / 一处修正）；
 3. PR 描述里写清楚：新增还是修改、放哪个目录、是否涉及政策内容（如是，注明核实来源）；
 4. 通过审核合并后，CI 自动构建部署，网站即刻更新。
+
+## 站点维护（维护者参考）
+
+### 本地开发
+
+```bash
+npm install
+npm run docs:dev   # http://localhost:5173/UJS-Survival-Guide/
+```
+
+新增页面后需同步登记 `docs/.vitepress/config.mts` 侧边栏。
+
+### 上线部署（一次性设置，已完成存档）
+
+1. 推送到远程仓库 `git@github.com:AinzFn/UJS-Survival-Guide.git`；
+2. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**；
+3. 已完成的占位替换：仓库地址、校徽/校标素材（见 `assets-src/README.md`）；**仍待填**：投稿邮箱（`docs/contribute/how-to-contribute.md`）。
+
+### 评论与统计
+
+- **统计（不蒜子）**：已接入，无需配置，每页底部显示站点 PV/UV（`theme/components/SiteStats.vue`）；
+- **评论（giscus）**：已接入，配置在 `docs/.vitepress/giscus.js`。若需更换分类或仓库，在 [giscus.app/zh-CN](https://giscus.app/zh-CN) 重新生成 `repoId`/`categoryId` 粘贴进去即可。
+
+### 维护路线图
+
+- [x] 站点骨架与部署流水线
+- [x] 全部章节大纲与写作模板
+- [ ] 组建编委会（站长 + 各章负责人 + 学院约稿人）
+- [ ] 冷启动首批 15~20 篇内容（编辑部骨干文 + 经验帖）
+- [ ] 发布 v1 并校内宣传，开放投稿
+- [ ] 每年 6 月：毕业季内容大修 + 编委会换届
