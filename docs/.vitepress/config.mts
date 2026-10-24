@@ -55,7 +55,6 @@ export default defineConfig({
           { text: '选课技巧', link: '/study/course-selection' },
           { text: 'GPA 制度解读', link: '/study/gpa' },
           { text: '转专业指南', link: '/study/major-transfer' },
-          { text: '转专业经验 · 材料→计算机', link: '/study/major-transfer-alister' },
           { text: '保研要求', link: '/study/baoyan-requirement' },
           { text: '评奖评优', link: '/study/awards' },
           { text: '入党', link: '/study/party' },
