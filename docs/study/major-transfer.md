@@ -120,7 +120,3 @@
 ### 也想写一篇？
 
 转成功、转失败、还在纠结的都可以写——投进仓库[投稿箱](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)即可，记得开头写一句你的"从哪转到哪"，方便整理归类。
-
-### 也想写一篇？
-
-转成功、转失败、还在纠结的都可以写——投进仓库[投稿箱](https://github.com/AinzFn/UJS-Survival-Guide/tree/main/inbox)即可，记得开头写一句你的"从哪转到哪"，方便整理归类。
